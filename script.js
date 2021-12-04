@@ -112,12 +112,12 @@ console.log(updateRecords(recordCollection, 2548, "tracks", ""));
 console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'));
 
 
-const myArray = [];
+/* const myArray = [];
 let i=5;
 while(i>=0){
   myArray.push(i);
 i--;
-}
+} */
 
 
 // const myArray = [];
@@ -159,3 +159,17 @@ for (let i = 0; i < arr.length; i++) {
   return product;
 }
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+
+
+//Iterate with JavaScript Do...While Loops
+
+const myArray = [];
+let i = 10;
+do {
+myArray.push(i);
+  i++;
+}
+// Only change code below this line
+while (i < 10) ;
+console.log(myArray)
